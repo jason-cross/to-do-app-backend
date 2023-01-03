@@ -18,7 +18,7 @@ class TodoController extends Controller
     }
 
     //Returns an entry in the list by a given ID
-    public function create($id) {
+    public function show($id) {
         return $this->checkTodoExists($id);
     }
 
