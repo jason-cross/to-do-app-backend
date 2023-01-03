@@ -10,7 +10,11 @@ class TodoController extends Controller
 {
     //Returns all entries in the list
     public function index() {
-        return Todo::all();
+        return [
+            'todo' => Todo::all(),
+            'success' => true,
+            'error' => null
+        ];
     }
 
     //Returns an entry in the list by a given ID
