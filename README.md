@@ -1,10 +1,12 @@
 -------------------
 STARTUP INFORMATION
 -------------------
-Run app with command './vendor/bin/sail up;' from within the /to-do-app directory
-The app will run from inside a docker container using an SQLite database that also runs inside the container
-The app is backend only so must be interfaced through Postman
-The base url the server is located at is 'localhost/'
+Run app with command './vendor/bin/sail up' from within the /to-do-app directory.
+This will only work on MacOS/Linux or Windows with WSL2 installed and enabled as per Laravel Documentation:
+https://laravel.com/docs/9.x/installation#getting-started-on-windows.
+The app will run from inside a docker container using an SQLite database that also runs inside the container.
+The app is backend only so must be interfaced through Postman.
+The base url the server is located at is 'http://localhost/'.
 
 --------------
 FILE STRUCTURE
